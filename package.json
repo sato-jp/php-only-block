@@ -1,0 +1,22 @@
+{
+	"name": "php-only-block",
+	"version": "1.0.0",
+	"description": "PHP だけで作成したブロックです。",
+	"author": "Hiroshi Sato",
+	"main": "php-only-block.php",
+	"files": [
+		"php-only-block.php",
+		"build",
+		"README.md",
+		"LICENSE",
+		"build/**/*.php",
+		"build/**/*.js",
+		"build/**/*.css",
+		"build/**/*.json"
+	],
+	"license": "GPL-2.0-or-later",
+	"dependencies": {
+		"@wordpress/env": "^10.38.0",
+		"@wordpress/scripts": "^31.3.0"
+	}
+}
